@@ -661,13 +661,11 @@ cat <<SUMMARY
 SUMMARY
 
 printf '\033[1;31m
-    ☠                                                              ☠
-    ☠                                                              ☠
-    ☠   ⚠  PRODUCTION NOTE                                         ☠
-    ☠                                                              ☠
-    ☠   This deployment uses a PUBLIC IP for both login            ☠
-    ☠   and compute nodes.                                         ☠
-    ☠   Please do not use this configuration in production.        ☠
-    ☠                                                              ☠
-    ☠                                                              ☠
+    ☠                                                         ☠
+    ☠                ⚠  SECURITY WARNING  ⚠                  ☠
+    ☠                                                         ☠
+    ☠   This deployment uses a PUBLIC IP for both login       ☠
+    ☠   and compute nodes.                                    ☠
+    ☠   Please do not use this configuration in production.   ☠
+    ☠                                                         ☠
 \033[0m\n'

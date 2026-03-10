@@ -1,4 +1,4 @@
-# CycleCloud + Slurm + Azure NetApp Files
+# CycleCloud Slurm Cluster with Public IPs
 
 Single-script deployment of Azure CycleCloud 8.x with a Slurm cluster and ANF shared storage. 
 
